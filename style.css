@@ -1,0 +1,79 @@
+body {
+    display: block;
+    margin: -1px;
+    background-image: url("./imagem/O-que-fazer-Maresias-SP.jpg");
+    background-size: 100%;
+}
+.divCentral{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.divForm{
+    display: flex;
+    justify-content: center;
+    
+}
+.resultados{
+display:block
+    
+}
+.form{
+    width: 300px;
+    height: 100%;
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5em;
+    background-color: white;
+    margin: 10px;
+}
+.results{
+  margin-top: 1em;
+
+  width: 300px;
+  height: 100%;
+  border-radius: 1.5em;
+  background-color: #fff;
+}
+.espacoP{
+  padding: 1em;
+}
+.forms{
+  margin:2em;
+ display: block;
+ padding-left: 4em;
+ padding-right: 1em;
+
+
+}
+.pessoas{
+ margin-bottom:0.5em ;
+}
+input,  label,  button {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    font-size: 18px;
+    height: 15px;
+    width: 100px;
+    padding: 2px;
+  }
+  .btnCalc{
+    background-color: rgba(93, 247, 93, 0.966);
+    border-radius: 12px;
+  }
+  p{
+    
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 2em;
+    padding-right: 4em;
+  }
